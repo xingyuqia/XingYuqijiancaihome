@@ -1,0 +1,85 @@
+package com.ischoolbar.programmer.entity.admin;
+
+import org.springframework.stereotype.Component;
+
+/**
+<<<<<<< HEAD
+ * Áî®Êà∑ÂÆû‰ΩìÁ±ª
+ * @author llq
+=======
+ * ”√ªß µÃÂ¿‡
+ * @author 12753
+>>>>>>> Âª∫Êùê‰πãÂÆ∂
+ *
+ */
+@Component
+public class User {
+<<<<<<< HEAD
+	private Long id;//Áî®Êà∑idÔºåËÆæÁΩÆËá™Â¢û
+	private String username;//Áî®Êà∑ÂêçÔºåÁôªÂΩïÂêç
+	private String password;//ÁôªÂΩïÂØÜÁ†Å
+	private Long roleId;//ÊâÄÂ±ûËßíËâ≤id
+	private String photo;//Â§¥ÂÉèÁÖßÁâáÂú∞ÂùÄ
+	private int sex;//ÊÄßÂà´0,‰ª£Ë°®Êú™Áü•Ôºå1‰ª£Ë°®Áî∑Ôºå2‰ª£Ë°®Â•≥
+	private Integer age;//Âπ¥ÈæÑ
+	private String address;//ÂÆ∂Â∫≠‰ΩèÂùÄ
+=======
+	private Long id;//”√ªßid£¨…Ë÷√◊‘‘ˆ
+	private String username;//”√ªß√˚£¨µ«¬º√˚
+	private String password;//µ«¬º√‹¬Î
+	private Long roleId;//À˘ ÙΩ«…´id
+	private String photo;//Õ∑œÒ’’∆¨µÿ÷∑
+	private int sex;//–‘±0,¥˙±ÌŒ¥÷™£¨1¥˙±Ìƒ–£¨2¥˙±Ì≈Æ
+	private Integer age;//ƒÍ¡‰
+	private String address;//º“Õ•◊°÷∑
+>>>>>>> Âª∫Êùê‰πãÂÆ∂
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getUsername() {
+		return username;
+	}
+	public void setUsername(String username) {
+		this.username = username;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getPhoto() {
+		return photo;
+	}
+	public void setPhoto(String photo) {
+		this.photo = photo;
+	}
+	public int getSex() {
+		return sex;
+	}
+	public void setSex(int sex) {
+		this.sex = sex;
+	}
+	public Integer getAge() {
+		return age;
+	}
+	public void setAge(Integer age) {
+		this.age = age;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public Long getRoleId() {
+		return roleId;
+	}
+	public void setRoleId(Long roleId) {
+		this.roleId = roleId;
+	}
+	
+}
